@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Header</key>
+		<string></string>
+		<key>Footer</key>
+		<string></string>
+		<key>Cells</key>
+		<array>
+			<dict>
+				<key>cellName</key>
+				<string>Name</string>
+				<key>cellValue</key>
+				<string>Type Your Name</string>
+				<key>cellKey</key>
+				<string>name</string>
+				<key>cellType</key>
+				<string>TextField</string>
+			</dict>
+			<dict>
+				<key>cellName</key>
+				<string>Password</string>
+				<key>cellValue</key>
+				<string>Type Password</string>
+				<key>cellKey</key>
+				<string>password</string>
+				<key>cellType</key>
+				<string>Password</string>
+			</dict>
+			<dict>
+				<key>cellName</key>
+				<string>Confirm</string>
+				<key>cellValue</key>
+				<string>Confirm Password</string>
+				<key>cellKey</key>
+				<string>confirm_password</string>
+				<key>cellType</key>
+				<string>Password</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Header</key>
+		<string></string>
+		<key>Footer</key>
+		<string></string>
+		<key>Cells</key>
+		<array>
+			<dict>
+				<key>cellName</key>
+				<string>Address</string>
+				<key>cellValue</key>
+				<string>Type Your Address</string>
+				<key>cellKey</key>
+				<string>address</string>
+				<key>cellType</key>
+				<string>TextField</string>
+			</dict>
+			<dict>
+				<key>cellName</key>
+				<string>Phone*</string>
+				<key>cellValue</key>
+				<string>Type your phone number</string>
+				<key>cellKey</key>
+				<string>phone</string>
+				<key>cellType</key>
+				<string>Phone</string>
+			</dict>
+			<dict>
+				<key>cellName</key>
+				<string>Gender*</string>
+				<key>cellValue</key>
+				<string>Male,Female|0,1|0</string>
+				<key>cellKey</key>
+				<string>gender</string>
+				<key>cellType</key>
+				<string>Segment</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

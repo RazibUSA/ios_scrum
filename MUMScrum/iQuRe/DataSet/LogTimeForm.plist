@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Header</key>
+		<string>Entry your log time.
+ * indicates mandatory fields</string>
+		<key>Footer</key>
+		<string></string>
+		<key>Cells</key>
+		<array>
+			<dict>
+				<key>cellName</key>
+				<string>Log Time*</string>
+				<key>cellValue</key>
+				<string>Put your work hour</string>
+				<key>cellKey</key>
+				<string>lockedTime</string>
+				<key>cellType</key>
+				<string>Number</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Header</key>
+		<string></string>
+		<key>Footer</key>
+		<string>Tap outside to dismiss picker...</string>
+		<key>Cells</key>
+		<array>
+			<dict>
+				<key>cellName</key>
+				<string>Assigned Date*</string>
+				<key>cellValue</key>
+				<string></string>
+				<key>cellKey</key>
+				<string>assignedDate</string>
+				<key>cellType</key>
+				<string>DatePicker</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

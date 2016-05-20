@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Header</key>
+		<string>Creating a Backlog.
+ * indicates mandatory fields</string>
+		<key>Footer</key>
+		<string></string>
+		<key>Cells</key>
+		<array>
+			<dict>
+				<key>cellName</key>
+				<string>Title*</string>
+				<key>cellValue</key>
+				<string>Put a title</string>
+				<key>cellKey</key>
+				<string>title</string>
+				<key>cellType</key>
+				<string>TextField</string>
+			</dict>
+			<dict>
+				<key>cellName</key>
+				<string>Description*</string>
+				<key>cellValue</key>
+				<string>Type Description</string>
+				<key>cellKey</key>
+				<string>description</string>
+				<key>cellType</key>
+				<string>TextField</string>
+			</dict>
+			<dict>
+				<key>cellName</key>
+				<string>Estimation*</string>
+				<key>cellValue</key>
+				<string>Say Estimation</string>
+				<key>cellKey</key>
+				<string>estimation</string>
+				<key>cellType</key>
+				<string>Number</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

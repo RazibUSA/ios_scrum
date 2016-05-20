@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Login</string>
+		<key>Icon</key>
+		<string>user_default.png</string>
+		<key>Childs</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Home</string>
+		<key>Icon</key>
+		<string>home.png</string>
+		<key>Childs</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>About Us</string>
+		<key>Icon</key>
+		<string>info.png</string>
+		<key>Details</key>
+		<string>Last Update August 7th, 2014
+
+Something that I have wanted to do for a long time is take a look at the web’s best About Us pages.
+
+Why? Because a good About Us page is very hard to come by.
+
+Normally they are a boring, self-serving mix of me me me and us us us. But a they are so vital to your business. In fact, its usually the first place people look before they start to take you seriously. Get it wrong and you could be turning people off without even knowing it.
+
+In this post I am going to show you what I consider to be 12 of the best About Us pages on the internet. I’m going to go through them all, one by one, and show you what makes them so good.
+
+A good About Us page is nothing without…
+
+It doesn’t matter how good your About Us page is if you don’t have your own domain name and web host.
+
+If you are using a free blog like Tumblr or Blogger you are growing a brand that you don’t fully own or control. This is a huge shame.</string>
+		<key>Childs</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Contact Us</string>
+		<key>Icon</key>
+		<string>location.png</string>
+		<key>Childs</key>
+		<array/>
+	</dict>
+</array>
+</plist>

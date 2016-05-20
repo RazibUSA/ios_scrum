@@ -1,0 +1,58 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import "SVProgressHUD.h"
+    #import "UIImageView+AFNetworking.h"
+    #import "ConnectionManager.h"
+    #import "DataModel.h"
+    #import "UIView+Custom.h"
+
+
+#define     DOC_FOLDER_PATH             [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES)objectAtIndex:0]
+#define     APP_THEME_COLOR             [UIColor colorWithRed:3.0/255 green:54.0/255 blue:85.0/255 alpha:1.0]
+
+#define     USER_LIST_PLIST             @"UserList.plist"
+#define     PROJECT_LIST_PLIST          @"ProjectList.plist"
+
+//#define     BASE_URL                    @"http://instaonline.net/websites/iqure/"
+#define     BASE_URL                    @"https://mumscrum.cfapps.io/"
+//#define     BASE_URL                    @"http://localhost:8080/mumscrum/"
+
+#define     PROFILE                     @"profile"
+#define     SIGN_IN                     @"login"
+#define     ADD_USER                    @"user"
+#define     PROJECT_API                 @"project"
+#define     BACKLOG_API                 @"userstory"
+#define     SPRINT_API                  @"sprint"
+#define     SIGN_OUT                    @"sign_out"
+
+#define kOAuthConsumerKey				@"ECPoERsvhNNVJMfFmQYyL6AhZ"
+#define kOAuthConsumerSecret			@"r9vdT97yK3fZ1LB7OiHwbXt4xrH3BaZwYVl8I6Gnwqpx3gbHny"
+
+#endif
+
+/*
+ 
+ FB User:
+ Email: test@KryKo.com
+ Pass: KryKo123
+ 
+ Twitter User:
+ Email: test@KryKo.com
+ Username: insta_logic
+ Password: KryKo123
+ 
+ */

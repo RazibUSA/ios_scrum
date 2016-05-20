@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Distance</string>
+		<key>Subtitle</key>
+		<string></string>
+		<key>Key</key>
+		<string>distance</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Value</key>
+		<string></string>
+		<key>Type</key>
+		<string>Picker</string>
+		<key>Childs</key>
+		<array>
+			<string>Within 1km</string>
+			<string>Within 2km</string>
+			<string>Within 3km</string>
+			<string>Within 5km</string>
+			<string>Within 10km</string>
+			<string>Within 20km</string>
+			<string>Within 30km</string>
+			<string>Within 40km</string>
+			<string>Within 50km</string>
+			<string>Within 60km</string>
+			<string>Within 70km</string>
+			<string>Within 80km</string>
+			<string>Within 90km</string>
+			<string>Within 100km</string>
+			<string>Within 200km</string>
+			<string>Within 300km</string>
+			<string>Within 500km</string>
+			<string>Within 1000km</string>
+			<string>Above 1000km</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Size</string>
+		<key>Subtitle</key>
+		<string></string>
+		<key>Key</key>
+		<string>size</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Value</key>
+		<string></string>
+		<key>Type</key>
+		<string>Picker</string>
+		<key>Childs</key>
+		<array>
+			<string>Between $0-1 Million</string>
+			<string>Between $1-5 Million</string>
+			<string>Between $5-10 Million</string>
+			<string>Between $10-20 Million</string>
+			<string>Between $20-50 Million</string>
+			<string>More than 50 Million</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Scope of Work</string>
+		<key>Subtitle</key>
+		<string></string>
+		<key>Key</key>
+		<string>scope</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Value</key>
+		<string></string>
+		<key>Type</key>
+		<string>Picker</string>
+		<key>Childs</key>
+		<array>
+			<string>International</string>
+			<string>Domestic</string>
+			<string>Internal</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Rating</string>
+		<key>Subtitle</key>
+		<string></string>
+		<key>Key</key>
+		<string>rating</string>
+		<key>Icon</key>
+		<string></string>
+		<key>Value</key>
+		<string></string>
+		<key>Type</key>
+		<string>Picker</string>
+		<key>Childs</key>
+		<array>
+			<string>1 Star</string>
+			<string>2 Stars</string>
+			<string>3 Stars</string>
+			<string>4 Stars</string>
+			<string>5 Stars</string>
+		</array>
+	</dict>
+</array>
+</plist>

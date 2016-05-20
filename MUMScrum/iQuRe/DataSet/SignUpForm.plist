@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Header</key>
+		<string>Creating a user account.
+ * indicates mandatory fields</string>
+		<key>Footer</key>
+		<string></string>
+		<key>Cells</key>
+		<array>
+			<dict>
+				<key>cellName</key>
+				<string>First Name*</string>
+				<key>cellValue</key>
+				<string>Type First Name</string>
+				<key>cellKey</key>
+				<string>firstName</string>
+				<key>cellType</key>
+				<string>TextField</string>
+			</dict>
+			<dict>
+				<key>cellName</key>
+				<string>Last Name*</string>
+				<key>cellValue</key>
+				<string>Type Last Name</string>
+				<key>cellKey</key>
+				<string>lastName</string>
+				<key>cellType</key>
+				<string>TextField</string>
+			</dict>
+			<dict>
+				<key>cellName</key>
+				<string>Email*</string>
+				<key>cellValue</key>
+				<string>email</string>
+				<key>cellKey</key>
+				<string>email</string>
+				<key>cellType</key>
+				<string>TextField</string>
+			</dict>
+			<dict>
+				<key>cellName</key>
+				<string>Password*</string>
+				<key>cellValue</key>
+				<string>Type Password</string>
+				<key>cellKey</key>
+				<string>password</string>
+				<key>cellType</key>
+				<string>Password</string>
+			</dict>
+			<dict>
+				<key>cellName</key>
+				<string>Confirm*</string>
+				<key>cellValue</key>
+				<string>Confirm Password</string>
+				<key>cellKey</key>
+				<string>confirm_password</string>
+				<key>cellType</key>
+				<string>Password</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Header</key>
+		<string></string>
+		<key>Footer</key>
+		<string>SA: System Admin, PO: Project Owner, SM: Scrum Master, Dev: Developer</string>
+		<key>Cells</key>
+		<array>
+			<dict>
+				<key>cellName</key>
+				<string>Role*</string>
+				<key>cellValue</key>
+				<string>SA,PO,SM,DV|0,1,2,3|3</string>
+				<key>cellKey</key>
+				<string>role</string>
+				<key>cellType</key>
+				<string>Segment</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

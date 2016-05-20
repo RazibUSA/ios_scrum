@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Header</key>
+		<string>Creating a Project.
+ * indicates mandatory fields</string>
+		<key>Footer</key>
+		<string></string>
+		<key>Cells</key>
+		<array>
+			<dict>
+				<key>cellName</key>
+				<string>Project Name*</string>
+				<key>cellValue</key>
+				<string>Type Project Name</string>
+				<key>cellKey</key>
+				<string>name</string>
+				<key>cellType</key>
+				<string>TextField</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Header</key>
+		<string></string>
+		<key>Footer</key>
+		<string>Tap outside to dismiss picker...</string>
+		<key>Cells</key>
+		<array>
+			<dict>
+				<key>cellName</key>
+				<string>Start Date</string>
+				<key>cellValue</key>
+				<string></string>
+				<key>cellKey</key>
+				<string>startDate</string>
+				<key>cellType</key>
+				<string>DatePicker</string>
+			</dict>
+			<dict>
+				<key>cellName</key>
+				<string>End Date</string>
+				<key>cellValue</key>
+				<string></string>
+				<key>cellKey</key>
+				<string>endDate</string>
+				<key>cellType</key>
+				<string>DatePicker</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
